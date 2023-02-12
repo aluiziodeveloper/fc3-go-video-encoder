@@ -30,7 +30,6 @@ func TestVideoIdIsNotUuid(t *testing.T) {
 
 func TestVideoValidation(t *testing.T) {
 	video := domain.NewVideo()
-
 	video.ID = uuid.NewV4().String()
 	video.ResourceID = "fake"
 	video.FilePath = "path"
