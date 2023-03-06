@@ -3,3 +3,5 @@
 .pgdata
 .devcontainer
 .docker/pgdata
+gcp-bucket-credential.json
+gcp-bucket-credential.json:Zone.Identifier
